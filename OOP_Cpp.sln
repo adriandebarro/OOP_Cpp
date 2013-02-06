@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bank_Account", "Bank_Account\Bank_Account.vcxproj", "{1943444D-D721-4B6C-ACE4-D3351A326273}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Stack_class", "Stack_class\Stack_class.vcxproj", "{D4C16B28-F4AE-431A-928D-7FB2F4203D91}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IntArray", "IntArray\IntArray.vcxproj", "{F912BEA7-68F3-4F1B-BA09-61164D1F5D35}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1943444D-D721-4B6C-ACE4-D3351A326273}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1943444D-D721-4B6C-ACE4-D3351A326273}.Debug|Win32.Build.0 = Debug|Win32
+		{1943444D-D721-4B6C-ACE4-D3351A326273}.Release|Win32.ActiveCfg = Release|Win32
+		{1943444D-D721-4B6C-ACE4-D3351A326273}.Release|Win32.Build.0 = Release|Win32
+		{D4C16B28-F4AE-431A-928D-7FB2F4203D91}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D4C16B28-F4AE-431A-928D-7FB2F4203D91}.Debug|Win32.Build.0 = Debug|Win32
+		{D4C16B28-F4AE-431A-928D-7FB2F4203D91}.Release|Win32.ActiveCfg = Release|Win32
+		{D4C16B28-F4AE-431A-928D-7FB2F4203D91}.Release|Win32.Build.0 = Release|Win32
+		{F912BEA7-68F3-4F1B-BA09-61164D1F5D35}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F912BEA7-68F3-4F1B-BA09-61164D1F5D35}.Debug|Win32.Build.0 = Debug|Win32
+		{F912BEA7-68F3-4F1B-BA09-61164D1F5D35}.Release|Win32.ActiveCfg = Release|Win32
+		{F912BEA7-68F3-4F1B-BA09-61164D1F5D35}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
