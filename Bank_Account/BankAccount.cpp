@@ -3,16 +3,25 @@
 
 using namespace std;
 
+long BankAccount::generator_number_ = 0;
+
 BankAccount::BankAccount(void) :
-	owner_("_test_account"), balance_(0), number_(1)
+	owner_("_test_account"), balance_(0), number_(generator_number_)
 {	
+	generator_number_++;
 	cout << "Inside constructor" << endl;
 }
 
-BankAccount::BankAccount(string owner, int balance, long num) :
-	owner_(owner), balance_(balance), number_(num)
+BankAccount::BankAccount(string owner, int balance) :
+	owner_(owner), balance_(balance), number_(generator_number_)
 {
+	generator_number_++;
 	cout << "Inside parametrized constructor" << endl;	
+}
+
+BankAccount::BankAccount( const BankAccount &ba ) : number_(0)
+{
+
 }
 
 BankAccount::~BankAccount(void)
@@ -32,9 +41,9 @@ void BankAccount::deposit( int amount )
 	balance_ += amount;
 }
 
-void BankAccount::print()
+void BankAccount::print() const
 {
-	cout << "Bank Account owner: " << owner_ << " with amount: " << balance_ << endl;
+	cout << "Bank Account " << number_ << " owner: " << owner_ << " with amount: " << balance_ << endl;
 }
 
 
