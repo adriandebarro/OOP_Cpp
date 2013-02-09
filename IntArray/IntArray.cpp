@@ -48,8 +48,10 @@ IntArray IntArray::operator+( const IntArray& arr2 )
 {
 	IntArray arr(size_ + arr2.size_);
 	size_t i = 0;
+	// left side
 	for (; i < size_; ++i)
 		arr.arr_[i] = arr_[i];
+	// right side
 	for (int j = 0 ; i < size_ + arr2.size_ ; ++i, ++j)
 		arr.arr_[i] = arr2.arr_[j];
 	return arr;
